@@ -22,6 +22,7 @@
 7. [Проектирование REST API](https://youtu.be/-RLXmoQ7iSE)
 8. [Кэширование через redis](https://youtu.be/t4H25XJG0Uc)
 9. [Фоновые задачи с Celery, Redis и Flower](https://youtu.be/fm4LTvMyiwE)
+10. [Тестирование API с pytest и pytest-asyncio](https://youtu.be/4xJGQKfN3ZM)
 
 ## Инструкция
 Для локального тестирования необходимо создать виртуальное окружение командой `python3 -m venv venv` и активировать его. Команда `venv\Scripts\activate.bat` - для Windows; `source venv/bin/activate` - для Linux и MacOS.
