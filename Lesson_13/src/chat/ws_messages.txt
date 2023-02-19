@@ -1,0 +1,5 @@
+Client #1676809481768 says: Privet from js client
+Client #1676809481768 says: 123
+Client #1676809481768 says: 2445
+Client #1676809481768 left the chat
+Client #1676809540047 left the chat
