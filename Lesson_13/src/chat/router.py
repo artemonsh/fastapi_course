@@ -1,10 +1,12 @@
 from typing import List
 
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect, Depends
+from pydantic import BaseModel
 from sqlalchemy import insert, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from chat.models import Messages
+from chat.schemas import MessagesModel
 from database import async_session_maker, get_async_session
 
 router = APIRouter(
@@ -49,12 +51,10 @@ manager = ConnectionManager()
 @router.get("/last_messages")
 async def get_last_messages(
         session: AsyncSession = Depends(get_async_session),
-):
+) -> List[MessagesModel]:
     query = select(Messages).order_by(Messages.id.desc()).limit(5)
     messages = await session.execute(query)
-    messages = messages.all()
-    messages_list = [msg[0].as_dict() for msg in messages]
-    return messages_list
+    return messages.scalars().all()
 
 
 @router.websocket("/ws/{client_id}")
