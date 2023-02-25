@@ -25,6 +25,7 @@
 10. [Тестирование API с pytest и pytest-asyncio](https://youtu.be/4xJGQKfN3ZM)
 11. [Связываем Фронт и Бэк: CORS и Middleware](https://youtu.be/h0eTzi5Geo8)
 12. [Верстка с Jinja. Как украсить API](https://youtu.be/AKLzDJ6XLCc)
+13. [Вебсокеты (онлайн-чат)](https://youtu.be/uWSdWJEFd0Y)
 
 ## Инструкция
 Для локального тестирования необходимо создать виртуальное окружение командой `python3 -m venv venv` и активировать его. Команда `venv\Scripts\activate.bat` - для Windows; `source venv/bin/activate` - для Linux и MacOS.
