@@ -4,10 +4,9 @@
 *Данный текст будет обновляться по мере выхода роликов. На текущий момент планируется создание 
 веб-приложения для трекинга своего портфеля в Тинькофф Инвестициях.* 
 
-Библиотеки, планирующиеся к использованию: alembic, sqlalchemy, fastapi-users, fastapi-cache, celery, redis-py.
+Библиотеки, планирующиеся к использованию: alembic, sqlalchemy, fastapi-users, fastapi-cache, celery, redis, jinja.
 
-Технологии: аутентификация пользователей (fastapi-users), кэширование запросов (redis), 
-отложенные задачи (celery + redis), работа с внешним API, pytest.
+Технологии: аутентификация пользователей (fastapi-users), кэширование запросов (redis), отложенные задачи (celery + redis), тестирование (pytest).
 
 Фронтенд: react (в этом курсе не разбирается).
 
@@ -26,6 +25,8 @@
 11. [Связываем Фронт и Бэк: CORS и Middleware](https://youtu.be/h0eTzi5Geo8)
 12. [Верстка с Jinja. Как украсить API](https://youtu.be/AKLzDJ6XLCc)
 13. [Вебсокеты (онлайн-чат)](https://youtu.be/uWSdWJEFd0Y)
+14. [Depends зависимости](https://youtu.be/qvzQWBEBHYw)
+15. [Docker и Docker Compose](https://youtu.be/18NCJrYWTIs)
 
 ## Инструкция
 Для локального тестирования необходимо создать виртуальное окружение командой `python3 -m venv venv` и активировать его. Команда `venv\Scripts\activate.bat` - для Windows; `source venv/bin/activate` - для Linux и MacOS.
