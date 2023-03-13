@@ -26,7 +26,7 @@
 12. [Верстка с Jinja. Как украсить API](https://youtu.be/AKLzDJ6XLCc)
 13. [Вебсокеты (онлайн-чат)](https://youtu.be/uWSdWJEFd0Y)
 14. [Depends зависимости](https://youtu.be/qvzQWBEBHYw)
-15. [Docker и Docker Compose](https://youtu.be/18NCJrYWTIs)
+15. [Docker и Docker Compose](https://youtu.be/_1H1qsNqxwM)
 
 ## Инструкция
 Для локального тестирования необходимо создать виртуальное окружение командой `python3 -m venv venv` и активировать его. Команда `venv\Scripts\activate.bat` - для Windows; `source venv/bin/activate` - для Linux и MacOS.
