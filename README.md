@@ -1,5 +1,5 @@
 # Курс по FastAPI от Артёма Шумейко
-[Ссылка на курс](https://www.youtube.com/playlist?list=PLeLN0qH0-mCVQKZ8-W1LhxDcVlWtTALCS)
+### [Ссылка на YouTube курс](https://www.youtube.com/playlist?list=PLeLN0qH0-mCVQKZ8-W1LhxDcVlWtTALCS)  
 
 В курсе создается каркас веб-приложения для трекинга своего портфеля в Тинькофф Инвестициях.
 
@@ -8,6 +8,22 @@
 Технологии: аутентификация пользователей (fastapi-users), кэширование запросов (redis), отложенные задачи (celery + redis), тестирование (pytest).
 
 Фронтенд: react (в этом курсе не разбирается).
+
+## Расширенный курс по FastAPI
+### [Ссылка на расширенный курс по FastAPI](https://artemshumeiko.ru/?utm_source=github&utm_medium=organic&utm_campaign=fastapi_course)
+
+Если вам хочется глубже познакомиться с FastAPI, а также научиться работать с  
+- Асинхронной SQLAlchemy
+- Кастомная аутентификация и авторизация
+- Redis
+- Celery
+- Docker
+- Nginx (и деплоить свое приложение на реальный сервер)
+- Логирование
+- Мониторинг
+
+То я приглашаю вас на свой курс. На него записано уже больше 150 человек.
+Развернутые отзывы можно прочитать [здесь](https://stepik.org/course/153849/reviews).
 
 ## Список уроков
 0. [Зачем учить FastAPI](https://youtu.be/7IdfnjXsdN4)
@@ -26,6 +42,10 @@
 13. [Вебсокеты (онлайн-чат)](https://youtu.be/uWSdWJEFd0Y)
 14. [Depends зависимости](https://youtu.be/qvzQWBEBHYw)
 15. [Docker и Docker Compose](https://youtu.be/_1H1qsNqxwM)
+16. [Деплой приложения](https://youtu.be/OxE2UGHPOA0)
+
+## Дополнительно
+- [Луковая Архитектура на FastAPI](https://youtu.be/8Im74b55vFc)
 
 ## Инструкция
 Для локального тестирования необходимо создать виртуальное окружение командой `python3 -m venv venv` и активировать его. Команда `venv\Scripts\activate.bat` - для Windows; `source venv/bin/activate` - для Linux и MacOS.
