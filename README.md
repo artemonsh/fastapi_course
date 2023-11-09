@@ -55,3 +55,7 @@
 Затем необходимо перейти в папку `src` командой `cd src` и запустить команду `uvicorn main:app --reload` для запуска сервера `uvicorn`. 
 
 После этого можно зайти в браузере по адресу `http://localhost:8000/docs` для просмотра доступных эндпоинтов.
+
+## История звездочек от вас
+
+[![Star History Chart](https://api.star-history.com/svg?repos=artemonsh/fastapi_course&type=Date)](https://star-history.com/#artemonsh/fastapi_course&Date)
